@@ -39,7 +39,7 @@ export const CheckoutItemContainer = styled(CheckoutItem)`
   margin-top: 50px;
 `;
 
-export const TextWarningContainer = styled.div`
+export const WarningContainer = styled.div`
   text-align: center;
   margin: 25px 0;
   font-size: 24px;

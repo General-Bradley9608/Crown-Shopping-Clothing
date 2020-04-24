@@ -6,7 +6,7 @@ import CustomButton from '../custom-button/custom-button.component';
 
 // import { auth, createUserProfileDocument } from '../../firebase/firebase.utils';
 
-// import { signUpStart } from '../../redux/user/user.actions';
+import { signUpStart } from '../../redux/user/user.actions';
 
 // import './sign-up.styles.scss';
 
