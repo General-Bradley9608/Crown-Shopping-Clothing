@@ -26,7 +26,7 @@ const CartDropdown = ({ cartItems, history, dispatch }) => (
           <CartItem key={cartItem.id} item={cartItem} />
         ))
       ) : (
-        <EmptyMessageContainer>Your cart is empty!</EmptyMessageContainer>
+        <EmptyMessageContainer>Your cart is empty</EmptyMessageContainer>
       )}
     </CartItemsContainer>
     <CartDropdownButton

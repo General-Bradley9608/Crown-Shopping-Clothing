@@ -19,7 +19,6 @@ import {
 
 const CheckoutItem = ({ cartItem, clearItem, addItem, removeItem }) => {
   const { name, imageUrl, price, quantity } = cartItem;
-
   return (
     <CheckoutItemContainer>
       <ImageContainer>

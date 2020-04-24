@@ -10,16 +10,16 @@ import { selectCartItemsCount } from '../../redux/cart/cart.selectors';
 // import './cart-icon.styles.scss';
 
 import {
-  CartIconContainer,
-  ShoppingIconContainer,
+  CartContainer,
+  ShoppingIcon,
   ItemCountContainer,
 } from './cart-icon.styles';
 
 const CartIcon = ({ toggleCartHidden, itemCount }) => (
-  <CartIconContainer onClick={toggleCartHidden}>
-    <ShoppingIconContainer />
+  <CartContainer onClick={toggleCartHidden}>
+    <ShoppingIcon />
     <ItemCountContainer>{itemCount}</ItemCountContainer>
-  </CartIconContainer>
+  </CartContainer>
 );
 
 const mapDispatchToProps = (dispatch) => ({

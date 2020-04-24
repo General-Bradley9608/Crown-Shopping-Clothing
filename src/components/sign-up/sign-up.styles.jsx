@@ -6,6 +6,6 @@ export const SignUpContainer = styled.div`
   width: 450px;
 `;
 
-export const TitleContainer = styled.h2`
+export const SignUpTitle = styled.h2`
   margin: 10px 0;
 `;

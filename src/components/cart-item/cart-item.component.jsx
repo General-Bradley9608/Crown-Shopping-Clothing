@@ -3,13 +3,13 @@ import React from 'react';
 // import './cart-item.styles.scss';
 
 import {
-  CartItemComponent,
+  CartItemContainer,
   CartItemImage,
   ItemDetailsContainer,
 } from './cart-item.styles';
 
 const CartItem = ({ item: { imageUrl, price, name, quantity } }) => (
-  <CartItemComponent>
+  <CartItemContainer>
     <CartItemImage src={imageUrl} alt='item' />
     <ItemDetailsContainer>
       <span>{name}</span>
@@ -17,7 +17,7 @@ const CartItem = ({ item: { imageUrl, price, name, quantity } }) => (
         {quantity} x ${price}
       </span>
     </ItemDetailsContainer>
-  </CartItemComponent>
+  </CartItemContainer>
 );
 
 export default CartItem;
