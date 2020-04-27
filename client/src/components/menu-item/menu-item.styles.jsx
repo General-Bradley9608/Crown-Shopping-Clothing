@@ -14,19 +14,27 @@ export const MenuItemContainer = styled.div`
 
   &:hover {
     cursor: pointer;
+
     & .background-image {
       transform: scale(1.1);
       transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
     }
+
     & .content {
       opacity: 0.9;
     }
   }
+
   &:first-child {
     margin-right: 7.5px;
   }
+
   &:last-child {
     margin-left: 7.5px;
+  }
+
+  @media screen and (max-width: 800px) {
+    height: 200px;
   }
 `;
 
@@ -49,6 +57,10 @@ export const ContentContainer = styled.div`
   background-color: white;
   opacity: 0.7;
   position: absolute;
+
+  @media screen and (max-width: 800px) {
+    padding: 0 10px;
+  }
 `;
 
 export const ContentTitle = styled.span`

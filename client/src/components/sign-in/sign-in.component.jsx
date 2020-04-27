@@ -16,7 +16,7 @@ import {
 import {
   SignInContainer,
   SignInTitle,
-  ButtonsContainer,
+  ButtonsBarContainer,
 } from './sign-in.styles';
 
 const SignIn = ({ emailSignInStart, googleSignInStart }) => {
@@ -61,7 +61,7 @@ const SignIn = ({ emailSignInStart, googleSignInStart }) => {
           label='password'
           required
         />
-        <ButtonsContainer>
+        <ButtonsBarContainer>
           <CustomButton type='submit'> Sign in </CustomButton>
           <CustomButton
             type='button'
@@ -70,7 +70,7 @@ const SignIn = ({ emailSignInStart, googleSignInStart }) => {
           >
             Sign in with Google
           </CustomButton>
-        </ButtonsContainer>
+        </ButtonsBarContainer>
       </form>
     </SignInContainer>
   );

@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
 
 import StripeCheckoutButton from '../../components/stripe-button/stripe-button.component';
-// import CheckoutItem from '../../components/checkout-item/checkout-item.component';
+import CheckoutItem from '../../components/checkout-item/checkout-item.component';
 
 import {
   selectCartItems,
@@ -17,7 +17,6 @@ import {
   CheckoutHeaderContainer,
   HeaderBlockContainer,
   TotalContainer,
-  CheckoutItemContainer,
   WarningContainer,
 } from './checkout.styles';
 
@@ -41,7 +40,7 @@ const CheckoutPage = ({ cartItems, total }) => (
       </HeaderBlockContainer>
     </CheckoutHeaderContainer>
     {cartItems.map((cartItem) => (
-      <CheckoutItemContainer key={cartItem.id} cartItem={cartItem} />
+      <CheckoutItem key={cartItem.id} cartItem={cartItem} />
     ))}
     <TotalContainer>TOTAL: ${total}</TotalContainer>
     <WarningContainer>
