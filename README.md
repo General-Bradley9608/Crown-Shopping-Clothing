@@ -30,7 +30,7 @@ npm install npm@latest -g
 1. Clone the repo
 
 ```
-git clone https://github.com/Ochanissi/Crwn-Clothing-GraphQL
+git clone https://github.com/Ochanissi/Crwn-Clothing-FE-BE
 ```
 
 2. Run npm install inside project root directory
