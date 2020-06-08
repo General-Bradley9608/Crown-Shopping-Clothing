@@ -17,6 +17,7 @@ export const CartDropdownContainer = styled.div`
 
 export const CartDropdownButton = styled(CustomButton)`
   margin-top: auto;
+  padding: 0 10px;
 `;
 
 export const EmptyMessageContainer = styled.span`
