@@ -34,7 +34,7 @@ const StripeCheckoutButton = ({ price }) => {
       name='Crwn Clothing'
       billingAddress
       shippingAddress
-      image='https://sendeyo.com/up/d/f3eb2117da'
+      image='https://crwn-clothing.ochanissi.com/logo192.png'
       description={`Your total is $${price}`}
       amount={priceForStripe}
       panelLabel='Pay Now!'
