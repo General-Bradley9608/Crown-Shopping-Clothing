@@ -1,68 +1,77 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Crwn Clothing
 
-## Available Scripts
+**Crwn Clothing** is a React application to browse clothing online. Discover the latest fashion & trends in menswear & womenswear.
 
-In the project directory, you can run:
+### Versions of the app:
 
-### `npm start`
+- [Crwn-Clothing](https://github.com/Ochanissi/Crwn-Clothing) - First version of the app
+- [Crwn-Clothing-Styled-Components](https://github.com/Ochanissi/Crwn-Clothing-Styled-Components) - Converted SCSS to Styled-Components
+- [Crwn-Clothing-Redux-Saga](https://github.com/Ochanissi/Crwn-Clothing-Redux-Saga) - Converted Thunk to Saga
+- [Crwn-Clothing-Hooks](https://github.com/Ochanissi/Crwn-Clothing-Hooks) - Converted Classes to Hooks
+- [Crwn-Clothing-GraphQL](https://github.com/Ochanissi/Crwn-Clothing-GraphQL) - Added GrapthQL & Apollo
+- [Crwn-Clothing-FE-BE](https://github.com/Ochanissi/Crwn-Clothing-FE-BE) - Final version of the app
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Getting Started
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+What things you need to install the software and how to install them
 
-### `npm run build`
+- npm
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+npm install npm@latest -g
+```
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Installing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repo
 
-### `npm run eject`
+```
+git clone https://github.com/Ochanissi/Crwn-Clothing-FE-BE
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2. Run npm install inside project root directory
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+3. Start the server
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```
+npm run start
+```
 
-## Learn More
+4. Explore
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+Enjoy! :)
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Built With
 
-### Code Splitting
+- [React](https://reactjs.org/docs/getting-started.html) - The web framework used
+- [Redux](https://redux.js.org/introduction/getting-started) - State managing tool
+- [Firebase](https://firebase.google.com/) - Database & Authentication
+- [Stripe](https://stripe.com/docs/) - Online Payment Processing API
+- [Styled Components](https://styled-components.com/) - CSS in modern JavaScript
+- [GraphQL](https://graphql.org/learn/) - Query language for APIs
+- [Apollo GraphQL](https://www.apollographql.com/docs/) - State managing tool for GraphQL
+- [ExpressJS](https://expressjs.com/) - The web framework for NodeJS
+- [Axios](https://github.com/axios/axios) - Promise based HTTP client for the browser and NodeJS
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## Authors
 
-### Analyzing the Bundle Size
+- **Mirel Bitoi** - _Initial work_ - [Ochanissi](https://github.com/Ochanissi)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## License
 
-### Making a Progressive Web App
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## Acknowledgments
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- [Complete React Developer in 2020](https://www.udemy.com/course/complete-react-developer-zero-to-mastery/) - Learning resource
+- [Google Fonts](https://fonts.google.com/) - Fonts used
