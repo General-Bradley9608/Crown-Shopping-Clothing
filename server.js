@@ -7,10 +7,10 @@ const enforce = require('express-sslify');
 
 if (process.env.NODE_ENV !== 'production') require('dotenv').config();
 
-const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
+const stripe = require('stripe')(process.env.CRWN_CLOTHING_STRIPE_SECRET_KEY);
 
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || process.env.CRWN_CLOTHING_PORT || 5006;
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
