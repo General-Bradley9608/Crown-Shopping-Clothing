@@ -49,6 +49,11 @@ export const AddButton = styled(CustomButton)`
     padding: 0 10px;
     font-size: 14px;
   }
+
+  @media screen and (max-width: 400px) {
+    padding: 0 5px;
+    font-size: 12px;
+  }
 `;
 
 export const BackgroundImage = styled.div`
