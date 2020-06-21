@@ -28,7 +28,13 @@ const Header = ({ currentUser, hidden, signOutStart }) => (
     </LogoContainer>
     <OptionsContainer>
       <OptionLink to='/shop'>SHOP</OptionLink>
-      <OptionLink to='/shop'>CONTACT</OptionLink>
+      <a
+        href='https://github.com/Ochanissi'
+        target='_blank'
+        rel='noopener noreferrer'
+      >
+        CONTACT
+      </a>
       {currentUser ? (
         <OptionLink as='div' onClick={signOutStart}>
           SIGN OUT
