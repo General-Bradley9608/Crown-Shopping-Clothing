@@ -60,7 +60,7 @@ Enjoy! :)
 
 ## Authors
 
-- **Bradley Helphenstine** - _Initial work_ - [Bradley](https://github.com/Generl-Bradley9608)
+- **Bradley Helphenstine** - _Initial work_ - [Bradley](https://github.com/General-Bradley9608)
 
 ## License
 
