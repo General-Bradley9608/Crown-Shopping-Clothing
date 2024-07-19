@@ -1,15 +1,10 @@
-# Crwn Clothing
+# Crown Clothing
 
-**Crwn Clothing** is a React application to browse clothing online. Discover the latest fashion & trends in menswear & womenswear.
+**Crown Clothing** is a React application to browse clothing online. Discover the latest fashion & trends in menswear & womenswear.
 
 ### Versions of the app:
 
-- [Crwn-Clothing](https://github.com/Ochanissi/Crwn-Clothing) - First version of the app
-- [Crwn-Clothing-Styled-Components](https://github.com/Ochanissi/Crwn-Clothing-Styled-Components) - Converted SCSS to Styled-Components
-- [Crwn-Clothing-Redux-Saga](https://github.com/Ochanissi/Crwn-Clothing-Redux-Saga) - Converted Thunk to Saga
-- [Crwn-Clothing-Hooks](https://github.com/Ochanissi/Crwn-Clothing-Hooks) - Converted Classes to Hooks
-- [Crwn-Clothing-GraphQL](https://github.com/Ochanissi/Crwn-Clothing-GraphQL) - Added GrapthQL & Apollo
-- [Crwn-Clothing-FE-BE](https://github.com/Ochanissi/Crwn-Clothing-FE-BE) - Final version of the app
+- [Crown-Clothing](https://github.com/General-Bradley9608/Crown-Shopping-Clothing)
 
 ## Getting Started
 
@@ -30,7 +25,7 @@ npm install npm@latest -g
 1. Clone the repo
 
 ```
-git clone https://github.com/Ochanissi/Crwn-Clothing-FE-BE
+git clone https://github.com/General-Bradley9608/Crown-Shopping-Clothing
 ```
 
 2. Run npm install inside project root directory
@@ -65,7 +60,7 @@ Enjoy! :)
 
 ## Authors
 
-- **Mirel Bitoi** - _Initial work_ - [Ochanissi](https://github.com/Ochanissi)
+- **Bradley Helphenstine** - _Initial work_ - [Bradley](https://github.com/Generl-Bradley9608)
 
 ## License
 
