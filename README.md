@@ -58,10 +58,6 @@ Enjoy! :)
 - [ExpressJS](https://expressjs.com/) - The web framework for NodeJS
 - [Axios](https://github.com/axios/axios) - Promise based HTTP client for the browser and NodeJS
 
-## Authors
-
-- **Bradley Helphenstine** - _Initial work_ - [Bradley](https://github.com/General-Bradley9608)
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
